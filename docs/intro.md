@@ -4,20 +4,31 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover the **sniffer in less than 5 minutes**.
+The sniffer can be used to sniff a network interface or a pcap file and send it over a stream to a grpc server
 
-## What is it ?
+## Compatibility
 
-go-flowmeter is an ethernet traffic flow generator and analyser for anomaly detection.
+Works on `Linux` and `MacOS`
 
-## Why is it useful ?
+> :warning: You will need to have the `libpcap` library installed on your system to use the sniffer
 
-When trying to analyse the behavior on an internet traffic, having data to work on which is properly formatted and
-represents the network's activity is the most important step.
-This tool helps to build those kind of datasets.
+## Installation
 
-## How does in work ?
+```sh
+https://github.com/Megalotron/Sniffer.git
+cargo install --path . --bin sniffer
+```
 
-From a high-level perspective, go-flowmeter pulls data from a network and reshapes it.
-From a more technical point of view, it needs data, extracted by a sniffer in a PCAP format, to create flows of
-bidirectional traffic that can be used by a machine-learning model to try detecting anomalies.
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Authors
+
+[@Megalotron](https://www.github.com/Megalotron)
