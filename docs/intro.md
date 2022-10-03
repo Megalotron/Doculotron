@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Sniffer Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **go-flowmeter in less than 5 minutes**.
 
-## Getting Started
+## What is it ?
 
-Get started by **creating a new site**.
+go-flowmeter is an ethernet traffic flow generator and analyser for anomaly detection.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Why is it useful ?
 
-### What you'll need
+When trying to analyse the behavior on an internet traffic, having data to work on which is properly formatted and
+represents the network's activity is the most important step.
+This tool helps to build those kind of datasets.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## How does in work ?
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+From a high-level perspective, go-flowmeter pulls data from a network and reshapes it.
+From a more technical point of view, it needs data, extracted by a sniffer in a PCAP format, to create flows of
+bidirectional traffic that can be used by a machine-learning model to try detecting anomalies.
