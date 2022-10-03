@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Sniffer Introduction
+# Introduction
 
-Let's discover **go-flowmeter in less than 5 minutes**.
+Let's discover the **sniffer in less than 5 minutes**.
 
 ## What is it ?
 
