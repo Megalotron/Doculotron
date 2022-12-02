@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'sniffer-docs',
-  tagline: 'The documentation of the sniffer',
+  title: 'Doculotron',
+  tagline: 'The documentation of the stacks of Megalotron project',
   url: 'https://megalotron.github.io',
-  baseUrl: '/sniffer-docs/',
+  baseUrl: '/doculotron/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'static/img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Megalotron', // Usually your GitHub org/user name.
-  projectName: 'sniffer-docs', // Usually your repo name.
+  projectName: 'Doculotron', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -52,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'sniffer-docs',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -62,10 +62,10 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
-            href: 'https://github.com/Megalotron/sniffer-docs',
+            href: 'https://github.com/Megalotron/Doculotron',
             label: 'GitHub',
             position: 'right',
           },
@@ -75,10 +75,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
@@ -105,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Megalotron/sniffer-docs',
+                href: 'https://github.com/Megalotron/Doculotron',
               },
             ],
           },
