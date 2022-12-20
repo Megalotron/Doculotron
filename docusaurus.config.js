@@ -9,7 +9,7 @@ const config = {
   title: 'Doculotron',
   tagline: 'The documentation of the stacks of Megalotron project',
   url: 'https://megalotron.github.io',
-  baseUrl: '/doculotron/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'static/img/favicon.ico',
