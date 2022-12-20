@@ -29,6 +29,7 @@ A Packet Record is the standard container for storing the packets coming from th
    /                                                               /
    +---------------------------------------------------------------+
 ```
+
 **The meaning of the fields in the Packet Record is:**
 
 `Timestamp (Seconds)` and `Timestamp (Microseconds or nanoseconds)`:

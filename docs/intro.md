@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Here is a list of all the available documentation for the `Megalotron` project.
+Here is all the available documentations of the different stacks of the `Megalotron` project.
 
 ## Authors
 
