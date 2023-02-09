@@ -17,6 +17,15 @@ it is more convenient to reduce the number of services used.
 
 ![gh registry process schema](../assets/megalotron_image_management_process.png)
 
+:::note
+
+Each repository has credentials to push to Megalotron GitHub repository.
+
+Password is stored as a secret named `REGISTRY_TOKEN` and the username is
+stored as `REGISTRY_USERNAME`.
+
+:::
+
 ## Image convention
 
 Megalotron has multiple stack, to simplify its management, there's a semantic convention to follow.
